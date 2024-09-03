@@ -5755,6 +5755,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 100%;
+  background-color: red;
   overflow: hidden;
 }
 
