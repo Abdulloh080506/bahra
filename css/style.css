@@ -40,6 +40,8 @@ body {
     font-weight: normal;
     overflow-x: hidden !important;
     overscroll-behavior-y: red !important;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -267,10 +269,10 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    /* background-image: url(../images2/banner.jpg); */
+    /* background-image: url(../images2/banner.jpg);     */
     height: auto;
-    /* background-size: 100%; */
-    /* padding: 10px 0px 25px 0px; */
+    background-size: 100%;
+    padding: 10px 0px 25px 0px;
     background-repeat: no-repeat;
     text-align: end;
     background-size: cover;
@@ -278,15 +280,14 @@ button {
 
 .banner_taital {
     width: 100%;
-    height: 100%;
+    height: 680px;
     /* background-color: red; */
     float: right;
-    padding: 0px;
+    padding: 800px 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: start;
-    gap: 5px;
     background-image: url('/images2/Снимок\ экрана\ \(14\).png');
     background-size: cover;
 }
@@ -298,6 +299,7 @@ button {
     color: white;
     padding-bottom: 0px;
     font-weight: bold;
+    position: relative;
 }
 
 .coffee_text {
@@ -307,6 +309,7 @@ button {
     color: #f75a37;
     font-weight: bold;
     padding-bottom: 0px;
+    position: relative;
 }
 
 .there_text {
@@ -358,10 +361,10 @@ button {
 #main_slider .carousel-control-prev {
     width: 45px;
     height: 45px;
-    background: #fff;
+    background: rgb(0, 0, 66);
     opacity: 1;
     font-size: 30px;
-    color: #333333;
+    color: white;
     margin: 0 auto;
     z-index: 1;
     margin: 0 auto;
@@ -1125,4 +1128,16 @@ a:hover {
 
 .nav-item:nth-child(7){
     display: none;
+}
+
+.container{
+    margin-top: 100px;
+}
+.container-2{
+    margin-top: 0px;
+}
+
+.carousel-inner{
+    position: relative;
+    top: -70px;
 }
