@@ -290,20 +290,22 @@ button {
     /* width: 100%; */
     float: right;
     font-size: 60px;
-    color: rgb(0, 0, 66);
+    color: white;
     padding-bottom: 0px;
+    font-weight: bold;
 }
 
 .coffee_text {
     /* width: 100%; */
     float: right;
     font-size: 70px;
-    color: #fdfcfa;
+    color: #f75a37;
     font-weight: bold;
     padding-bottom: 0px;
 }
 
 .there_text {
+    display: none;
     width: 50%;
     float: left;
     font-size: 16px;
