@@ -30,6 +30,9 @@
 * {
     box-sizing: border-box !important;
     transition: none;
+    margin: 0;
+    padding: 0;
+
 }
 
 body {
@@ -269,7 +272,6 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    /* background-image: url(../images2/banner.jpg);     */
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -280,16 +282,15 @@ button {
 
 .banner_taital {
     width: 100%;
-    height: 680px;
-    /* background-color: red; */
+    height: 590px;
     float: right;
-    padding: 800px 0px;
+    /* padding: 800px 0px; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: start;
-    background-image: url('/images2/Снимок\ экрана\ \(14\).png');
+    justify-content: center ;
     background-size: cover;
+    gap: 10px;
 }
 
 .outstanding_text {
@@ -300,16 +301,18 @@ button {
     padding-bottom: 0px;
     font-weight: bold;
     position: relative;
+    right: 30px;
 }
 
 .coffee_text {
-    /* width: 100%; */
     float: right;
-    font-size: 70px;
-    color: #f75a37;
+    font-size: 50px;
+    color: white;
     font-weight: bold;
     padding-bottom: 0px;
     position: relative;
+    right: 30px;
+    top: -30px;
 }
 
 .there_text {
@@ -324,6 +327,8 @@ button {
 
 .learnmore_bt {
     width: 170px;
+    position: relative;
+    right: 30px;
 }
 
 .learnmore_bt a {
@@ -369,6 +374,7 @@ button {
     z-index: 1;
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
 }
 
 #main_slider .carousel-control-next:focus,
@@ -1130,14 +1136,23 @@ a:hover {
     display: none;
 }
 
-.container{
-    margin-top: 100px;
-}
-.container-2{
-    margin-top: 0px;
+#karusel1{
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363));
+    background-image: url('/images2/Снимок\ экрана\ \(14\).png');
+    background-size: cover;
 }
 
-.carousel-inner{
-    position: relative;
-    top: -70px;
+#karusel2{
+    background-image: url('/images2/Снимок\ экрана\ \(15\).png');
+}
+
+#karusel3{
+    background-image: url('/images2/Снимок\ экрана\ \(16\).png');
+}
+
+#kon{
+    margin-top: 0px;
+}
+.container{
+    margin-top: 50px;
 }
