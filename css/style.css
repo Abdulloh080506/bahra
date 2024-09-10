@@ -607,22 +607,6 @@ a:hover {
     min-height: 50px;
 }
 
-.box_main .house_icon .image_2 {
-    display: none;
-}
-
-.box_main:hover .house_icon .image_2 {
-    display: block;
-}
-
-.box_main:hover .house_icon .image_1 {
-    display: none;
-}
-
-.box_main:hover {
-    background-color: #ffffff;
-}
-
 .box_main {
     width: 100%;
     background-color: #f75a37;
@@ -631,25 +615,12 @@ a:hover {
     transition: .3s ;
 }
 
-.box_main:hover .decorate_text {
-    color: rgb(0, 0, 66);
-}
-
 .box_main:hover .tation_text {
     color: #000;
 }
 
-.box_main:hover .readmore_bt {
+.box_main .readmore_bt {
     display: block;
-}
-
-.box_main:hover .readmore_bt a {
-    color: #ffffff;
-    background-color: rgb(0, 0, 66);
-}
-
-.box_main:hover .readmore_bt a:hover {
-    background-color: #f75a37;
 }
 
 .services_section_2 {
@@ -687,16 +658,11 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #070603;
+    background-color: rgb(0, 0, 66);
     color: #ffffff;
     text-align: center;
     padding: 8px;
     text-transform: uppercase;
-}
-
-.readmore_bt a:hover {
-    color: #ffffff;
-    background-color: #f75a37;
 }
 
 /* services section end */
