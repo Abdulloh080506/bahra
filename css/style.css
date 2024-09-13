@@ -36,6 +36,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  scroll-behavior: smooth;
   font-variation-settings:
     "wdth" 100;
 }
