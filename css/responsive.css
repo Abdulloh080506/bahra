@@ -49,12 +49,20 @@
     .navbar-dropdown{
         width: 100%;
     }
+    .container {
+        position: relative;
+        top: 0px;
+    }
 }
 
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
+    .container {
+        position: relative;
+        top: 0px;
+    }
     .banner_taital {
         padding: 20px 0px;
     }
@@ -163,6 +171,27 @@
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+    #karusel1{
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    
+    #karusel2{
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    
+    #karusel3{
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+    }
+    .container {
+        position: relative;
+        top: 0px;
+    }
     .dropdown{
         width: 100px; 
         margin: auto;

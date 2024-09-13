@@ -1106,14 +1106,28 @@ a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.363));
     background-image: url('/images2/Снимок\ экрана\ \(14\).png');
     background-size: cover;
+    object-fit: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
 }
 
 #karusel2{
     background-image: url('/images2/Снимок\ экрана\ \(15\).png');
+    background-size: cover;
+    object-fit: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
 }
 
 #karusel3{
     background-image: url('/images2/Снимок\ экрана\ \(16\).png');
+    background-size: cover;
+    object-fit: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
 }
 
 #kon{
@@ -1121,4 +1135,9 @@ a:hover {
 }
 .container{
     margin-top: 50px;
+}
+
+.container {
+    position: relative;
+    top: -40px;
 }
