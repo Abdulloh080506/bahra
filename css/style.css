@@ -231,7 +231,8 @@ button {
     background-color: white;
     height: auto;
     background-size: 100%;
-    /* position: fixed; */
+    position: fixed;
+    z-index: 2;
 }
 
 .bg-light {
@@ -284,6 +285,7 @@ button {
     background-repeat: no-repeat;
     text-align: end;
     background-size: cover;
+    margin-top: 80px;
 }
 
 .banner_taital {
@@ -1100,7 +1102,7 @@ a:hover {
     margin: auto;
 }
 
-.nav-item:nth-child(7){
+.nav-item:nth-child(8){
     display: none;
 }
 
